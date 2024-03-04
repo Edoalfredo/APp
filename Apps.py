@@ -2,7 +2,6 @@
 import streamlit as st
 import numpy as np
 import tensorflow as tf
-from IPython.display import display, Image
 from keras.preprocessing import image, image_dataset_from_directory
 from keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
 from keras.models import Sequential, load_model
